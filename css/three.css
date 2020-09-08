@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f6f9f9;
+    font-family: 'Lato', sans-serif
+}
+
+
+.head{
+
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.container{
+
+    width: 1140px;
+
+    margin: 1px auto;
+}
+/* ---------------------hr------------------------- */
+hr{
+    padding: 1px 0px;
+    width: 50%;
+    margin: 1px auto;
+    background: #278dcd;
+    border: none;
+    margin-top: 21px;
+}
+/* -------------------------hr------------------- */
+.padding{
+
+    padding: 26px 0px;
+}
+.logo{
+
+    padding: 0px 50px;
+}
+
+
+/*  ------------header Ends----------------------- */
+
+.banner{
+
+    width: 100%;
+
+    overflow: hidden;
+
+    background: url(../img/cover.jpg);
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 718px;
+
+    text-align: center;
+
+    color: #fff;
+    background-attachment: fixed;
+}
+.banner h1{
+
+    font-size: 73px;
+
+    padding-top: 177px;
+}
+.banner p{
+
+    font-size: 20px;
+
+    padding-top: 30px;
+
+    padding-bottom: 60px;
+}
+.banner a{
+
+    color: #fff;
+
+    border: 1px solid #278dcd;
+
+    padding: 11px 12px;
+    border-radius: 4px;
+}
+/* -------------------hover-------------------------------- */
+.banner a:hover{
+    background: #687070b0;
+    transition: 0.5s;
+    border: 1px solid #278dcd;
+    text-shadow: 1px 4px 3px #000;
+}
+/* --------------hover------------------------------------- */
+.banner i{
+    margin-top: 214px;
+}
+
+.banner i:hover{
+    font-size: 20px;
+}
+
+/*  -------------------Banner ENDS---------------- */
+
+.sec1{
+    width: 100%;
+    overflow: hidden;
+    height: 672px;
+    text-align: center;
+    background: #f6f9f9;
+}
+
+
+.sec1 h1{
+    font-size: 40px;
+    margin-bottom: 31px;
+    font-weight: 700;
+    margin-top: 53px;
+}
+
+.sec-1para{
+    width: 954px;
+    height: 80px;
+    margin-left: 156px;
+    font-size: 18px;
+    margin-bottom: 102px;
+    font-weight: 400;
+    color: #999999;
+}
+.sec1-left{
+
+    width: 33.33%;
+
+    float: left;
+}
+
+.sec1-left img{
+
+    width: 98px;
+
+    height: 96px;
+
+    margin-bottom: 25px;
+}
+
+
+.sec1-left h2{
+
+    font-size: 22px;
+
+    margin-bottom: 10px;
+}
+
+
+.sec1-left p{
+
+    font-size: 14px;
+
+    width:  292px;
+
+    margin: 1px auto;
+
+    font-weight: 400;
+
+    color: #999999;
+}
+ /* --------------sec1 ENDS----------------------- */ 
+.sec2{
+
+        width: 100%;
+        
+        overflow: hidden;
+        
+        height: 818px;
+        
+        text-align: center;
+ }
+    
+    
+    .sec2 h1{
+    
+        font-size: 40px;
+        
+        font-weight: 400;
+        
+        margin-bottom: 18px;
+    }
+    
+    .sec2-para{
+    
+        color: #909090;
+        
+        font-weight: 400;
+        
+        font-size: 15px;
+        
+        margin-bottom: 72px;
+    }
+    .up{
+    
+        width: 100%;
+        
+        overflow: hidden;
+    }
+    .up-left{
+    
+        width: 33.33%;
+        
+        float: left;
+    }
+    /* --------------hover------------------------------- */
+    .one:hover{
+        opacity: 0.4;
+    }
+    .two:hover{
+        opacity: 0.4;
+    }
+    .three:hover{
+        opacity: 0.4;
+    }
+
+    .four:hover{
+        opacity: 0.4;
+    }
+    .five:hover{
+        opacity: 0.4;
+    }
+    .six:hover{
+        opacity: 0.4;
+    }
+    /* ------------------------hover---------------------------*/
+    .down{
+        
+        margin-top: 22px;
+        
+        width: 100%;
+        
+        overflow: hidden;
+    }
+    
+    .down-left{
+    
+        width: 33.33%;
+        
+        float: left;
+    }
+  
+    
+
+/* --------------sec2 ENDS-------------------- */
+
+
+
+.contact{
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background: url(../img/08.jpg);
+    background-attachment: fixed;
+}
+.contact h1{
+
+    font-size: 41px;
+
+    color: #FED;
+
+    font-weight: 400;
+
+    margin-bottom: 10px;
+}
+
+.contact p{
+    font-size: 15px;
+    color: #909090;
+    margin-bottom: 46px;
+}
+form{
+
+    width: 100%;
+
+    overflow: hidden;
+    }
+    .name{
+
+    display: block;
+
+    width: 530px;
+
+    height: 40px;
+
+    margin: 1px auto;
+
+    border: 1px solid #909090;
+
+    background: transparent;
+
+    margin-bottom: 12px;
+
+    border-radius: 3px;
+
+    padding: 0 5px;
+}
+
+
+#text{
+    display: flex;
+    width: 529px;
+    height: 126px;
+    margin: 1px auto;
+    background: transparent;
+    padding: 18px 7px;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.box{
+    width: 37%;
+    float: left;
+    font-size: 12px;
+    color: #909090;
+    margin: 31px 154px;
+}
+
+.send{
+    width: 116px;
+    float: left;
+    border: 1px solid #278dcd;
+    height: 15px;
+    padding: 13px 1px;
+    margin-top: 14px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+
+.send a{
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.send:hover{
+    background: #687070b0;
+    transition: 0.5s;
+    border: 1px solid #278dcd;
+    text-shadow: 1px 4px 3px #000;
+}
+/*-------------------------------- contact ENDS */
+
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    height: 90px;
+    text-align: center;
+
+}
+
+.copy{
+    width: 50%;
+    float: left;
+    color:#909090;
+    font-size: 13px;
+    padding-top: 12px;
+}
+
+.social{
+    width: 50%;
+    float: left;
+   
+}
+
+#face{
+
+    color: aliceblue;
+    background: #15a4fa;
+    padding: 5px 8px;
+    margin-right: 3px;
+    box-shadow: 1px 3px 5px #1566fad9;
+
+}
+#face:hover{
+    background: #15a4fa8a;
+    box-shadow:5px 4px 3px #15a4fa8a;
+
+}
+
+#twit{
+    color: aliceblue;
+    background: #15a4fa;
+    padding: 5px 6px;
+    margin-right: 3px;
+    box-shadow: 1px 3px 5px #1566fad9;
+}
+#twit:hover{
+    background: #15a4fa8a;
+    box-shadow: 5px 4px 3px #15a4fa8a;
+}
+#google{
+
+    color: aliceblue;
+
+    background: #15a4fa;
+
+    padding: 5px 5px;
+
+    margin-right: 3px;
+
+    box-shadow: 1px 3px 5px #1566fad9;
+}
+#google:hover{
+    background: #15a4fa8a;
+    box-shadow: 5px 4px 3px #15a4fa8a;
+}
+#link{
+    
+    color: aliceblue;
+        
+    background: #15a4fa;
+        
+    padding: 5px 8px;
+        
+    margin: 3px;
+    box-shadow: 1px 3px 5px #1566fad9;
+}
+#link:hover{
+    background: #15a4fa8a;
+   box-shadow: 5px 4px 3px #15a4fa8a;
+}
+
+
